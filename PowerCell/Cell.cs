@@ -41,6 +41,7 @@ namespace PowerCell
             Charge = 200;
         }
 
+        // override do metodo ToString()
         public override string ToString()
         {
             return $"[{Name}] Level {Level}: {Charge}/200";
